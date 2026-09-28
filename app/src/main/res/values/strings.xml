@@ -1,0 +1,556 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Super Fast PDF Scanner</string>
+
+    <!-- Home Screen -->
+    <string name="btn_scan">Scan</string>
+    <string name="btn_saved_scans">Saved Scans</string>
+    <string name="btn_settings">Settings</string>
+    <string name="btn_home">Home</string>
+    <string name="btn_history">History</string>
+    <string name="home_tagline">Capture, Edit, Export — Lightning Fast</string>
+    <string name="home_footer">100% Ad-Free • Your Privacy Matters</string>
+
+    <!-- Camera Screen -->
+    <string name="capture">Capture</string>
+    <string name="done">Done</string>
+    <string name="pages">pages</string>
+    <string name="camera_permission_required">Camera permission is required to scan documents.</string>
+    <string name="grant_permission">Grant Permission</string>
+    <string name="back">Back</string>
+
+    <!-- Edit Screen -->
+    <string name="edit_title">Edit Pages</string>
+    <string name="rotate_left">Rotate Left</string>
+    <string name="rotate_right">Rotate Right</string>
+    <string name="crop">Crop</string>
+    <string name="delete">Delete</string>
+    <string name="edit">Edit</string>
+    <string name="no_pages">No pages to edit</string>
+    <string name="export_button">Export</string>
+
+    <!-- Filters -->
+    <string name="filter_original">Original</string>
+    <string name="filter_grayscale">Grayscale</string>
+    <string name="filter_black_white">B&amp;W</string>
+    <string name="filter_enhanced">Enhanced</string>
+
+    <!-- Export Screen -->
+    <string name="export_title">Save Document</string>
+    <string name="file_name">File Name</string>
+    <string name="file_name_placeholder">e.g. Invoice, Contract…</string>
+    <string name="export_format">Select Format</string>
+    <string name="export_save">Save Document</string>
+    <string name="export_save_button">Save to Device</string>
+    <string name="export_success">Saved Successfully!</string>
+    <string name="export_saved_to">Your document has been saved to your device.</string>
+    <string name="back_to_home">Back to Home</string>
+    <string name="pdf_format_info">All pages will be combined into a single PDF document. Best for documents, contracts, and sharing.</string>
+    <string name="jpg_format_info">Each page will be saved as a separate JPG image. Best for photos and individual pages.</string>
+    <string name="export_pdf_title">PDF Document</string>
+    <string name="export_pdf_desc">All pages in a single document • Best for sharing</string>
+    <string name="export_jpg_title">JPG Images</string>
+    <string name="export_jpg_desc">Each page saved as a separate image</string>
+    <string name="export_destination">Save Location</string>
+    <string name="export_destination_path">Device > Documents > SuperFastScan</string>
+    <string name="export_recommended_badge">Recommended</string>
+    <string name="export_document_summary">Document Summary</string>
+
+    <!-- Saved Scans Screen -->
+    <string name="no_saved_scans">No Saved Scans Yet</string>
+    <string name="no_saved_scans_hint">Scanned documents will appear here</string>
+    <string name="untitled_document">Untitled Document</string>
+
+    <!-- Delete Confirmation -->
+    <string name="delete_confirmation_title">Delete Scan</string>
+    <string name="delete_confirmation_message">Are you sure you want to delete this scan? This action cannot be undone.</string>
+    <string name="delete_confirm_button">Delete</string>
+    <string name="delete_cancel_button">Cancel</string>
+    <string name="delete_from_files_option">Also delete from device files?</string>
+
+    <!-- Edit Document Screen -->
+    <string name="edit_document_title">Edit Document</string>
+    <string name="page_indicator">Page %1$d / %2$d</string>
+    <string name="save_and_export">Save &amp; Export</string>
+    <string name="delete_page_title">Delete Page</string>
+    <string name="delete_page_message">Are you sure you want to delete this page?</string>
+    <string name="no_pages_remaining">No pages remaining. The document will be deleted.</string>
+
+    <!-- Exit Confirmation -->
+    <string name="exit_confirm_title">Exit Without Saving?</string>
+    <string name="exit_confirm_message">Your scanned pages are safely stored in \'Saved Scans\'. You can continue editing and exporting them at any time from the home screen.</string>
+    <string name="exit_confirm_button">Exit to Home</string>
+    <string name="exit_cancel_button">Stay &amp; Continue</string>
+
+    <!-- Settings Screen -->
+    <string name="settings_language">Language</string>
+    <string name="settings_about">About</string>
+    <string name="app_version">Version 1.0.0</string>
+    <string name="developer_label">Developer</string>
+    <string name="developer_name">SAI Technologies</string>
+    <string name="about_description">Super Fast PDF Scanner is a blazing-fast, ad-free document scanner designed for people on-the-go. Capture, edit, and export your documents in seconds.</string>
+    <string name="settings_scan_export_section">Scan &amp; Export Preferences</string>
+    <string name="settings_default_format">Default Format</string>
+    <string name="settings_default_format_desc">Format automatically used when saving scans</string>
+    <string name="settings_default_location">Default Save Location</string>
+    <string name="settings_default_location_desc">Device Documents (SuperFastScan)</string>
+
+    <!-- Initial Setup Onboarding -->
+    <string name="initial_setup_title">Quick Scan Preferences</string>
+    <string name="initial_setup_desc">Choose your default save preferences for lightning-fast scanning. Your scans will be automatically saved with these settings.</string>
+    <string name="initial_setup_notice">You can change these selections at any time from the Settings menu.</string>
+    <string name="initial_setup_btn">Save &amp; Get Started</string>
+    <string name="format_pdf_title">PDF Document (.pdf)</string>
+    <string name="format_pdf_desc">Recommended • All pages in a single document</string>
+    <string name="format_jpg_title">JPG Images (.jpg)</string>
+    <string name="format_jpg_desc">Each page saved as a separate high-resolution image</string>
+    <string name="save_location_label">Save Location</string>
+    <string name="save_location_value">Documents / SuperFastScan</string>
+    <string name="btn_save_document">Save Document</string>
+    <string name="saving_document_progress">Saving document…</string>
+    <string name="format_default_badge">Default</string>
+    <string name="error_open_file">Failed to open exported file or no viewer found.</string>
+
+    <!-- PDF Tools Section -->
+    <string name="app_subtitle">Professional Document Scanner</string>
+    <string name="show_all">Show All</string>
+    <string name="hide_all">Hide</string>
+    <string name="ad_loading">Loading Ad…</string>
+    <string name="pdf_tools_section_title">PDF Tools</string>
+    <string name="tool_coming_soon">Coming Soon</string>
+
+    <string name="tool_merge_pdf">Merge PDF</string>
+    <string name="tool_merge_pdf_desc">Combine PDFs in any order</string>
+
+    <string name="tool_split_pdf">Split PDF</string>
+    <string name="tool_split_pdf_desc">Extract a single page or split into multiple independent PDFs</string>
+
+    <string name="tool_compress_pdf">Compress PDF</string>
+    <string name="tool_compress_pdf_desc">Reduce file size while optimizing for maximum quality</string>
+
+    <string name="tool_pdf_to_word">PDF to Word</string>
+    <string name="tool_pdf_to_word_desc">Convert PDF to highly accurate DOC/DOCX</string>
+
+    <string name="tool_pdf_to_ppt">PDF to PowerPoint</string>
+    <string name="tool_pdf_to_ppt_desc">Convert PDF to editable PowerPoint presentation</string>
+
+    <string name="tool_pdf_to_excel">PDF to Excel</string>
+    <string name="tool_pdf_to_excel_desc">Extract data from PDF to EXCEL in seconds</string>
+
+    <string name="tool_word_to_pdf">Word to PDF</string>
+    <string name="tool_word_to_pdf_desc">Convert DOC/DOCX to readable PDF format</string>
+
+    <string name="tool_ppt_to_pdf">PowerPoint to PDF</string>
+    <string name="tool_ppt_to_pdf_desc">Convert PowerPoint presentations to easy-to-view PDF format</string>
+
+    <string name="tool_excel_to_pdf">Excel to PDF</string>
+    <string name="tool_excel_to_pdf_desc">Convert EXCEL files to readable PDF format</string>
+
+
+    <string name="tool_pdf_to_jpg">PDF to JPG</string>
+    <string name="tool_pdf_to_jpg_desc">Convert each page to a JPG or extract all images contained in a PDF</string>
+
+    <string name="tool_jpg_to_pdf">JPG to PDF</string>
+    <string name="tool_jpg_to_pdf_desc">Convert JPG images to PDF in seconds, adjust orientation and margins</string>
+
+    <string name="tool_sign_pdf">Sign PDF</string>
+    <string name="tool_sign_pdf_desc">Sign a document yourself or request e-signatures from others</string>
+
+    <string name="tool_watermark">Watermark</string>
+    <string name="tool_watermark_desc">Stamp an image or text over a PDF in seconds</string>
+
+    <string name="tool_rotate_pdf">Rotate PDF</string>
+    <string name="tool_rotate_pdf_desc">Rotate your PDFs the way you need them, even multiple PDFs at once</string>
+
+    <string name="tool_organize_pdf">Organize PDF</string>
+    <string name="tool_organize_pdf_desc">Sort pages of your PDF file however you like. Delete or add PDF pages</string>
+
+    <!-- Sign PDF Feature -->
+    <string name="sign_select_pdf">Select PDF</string>
+    <string name="sign_select_pdf_hint">Please select a PDF document from top right to start signing.</string>
+    <string name="sign_tab_yourself">Sign Yourself</string>
+    <string name="sign_tab_request">Request E-Signature</string>
+    <string name="sign_draw_title">Draw Your Signature</string>
+    <string name="sign_draw_hint">Draw your signature with your finger in the area below.</string>
+    <string name="sign_clear">Clear</string>
+    <string name="sign_done">Done</string>
+    <string name="sign_add_signature">Add Signature</string>
+    <string name="sign_change_signature">Change Signature</string>
+    <string name="sign_save_document">Save Document</string>
+    <string name="sign_save_success">Signed Successfully!</string>
+    <string name="sign_save_success_desc">The signed PDF has been saved to your device.</string>
+    <string name="sign_request_title">Request E-Signature</string>
+    <string name="sign_request_desc">Send this document to someone else to request their digital signature.</string>
+    <string name="sign_recipient_name">Recipient Name *</string>
+    <string name="sign_recipient_email">Recipient Email *</string>
+    <string name="sign_message_optional">Message (Optional)</string>
+    <string name="sign_send_request">Send Request</string>
+    <string name="sign_request_sent">Request Sent Successfully!</string>
+    <string name="sign_request_sent_desc">An email invitation has been sent to the recipient to sign the document.</string>
+    <string name="sign_send_another">Send Another Request</string>
+    <string name="sign_size_label">Signature Size</string>
+    <string name="sign_color_label">Ink Color</string>
+    <string name="sign_select_pdf_btn">Select PDF Document</string>
+    <string name="sign_select_pdf_sub">Choose a PDF from your device to start signing</string>
+
+    <!-- Merge PDF Feature -->
+    <string name="merge_add_more_btn">Add More PDFs</string>
+    <string name="merge_select_title">Select PDF Files</string>
+    <string name="merge_select_subtitle">Choose 2 or more PDF documents to merge into a single file</string>
+    <string name="merge_select_btn">Select PDF Files</string>
+    <string name="merge_reorder_hint">Hold and drag a card to reorder files</string>
+    <string name="merge_files_count">files selected</string>
+    <string name="merge_total_label">total</string>
+    <string name="merge_action_btn">Merge PDFs</string>
+    <string name="merge_loading_files">Inspecting PDF files…</string>
+    <string name="merge_progress_title">Merging PDFs…</string>
+    <string name="merge_progress_desc">Processing file</string>
+    <string name="merge_no_valid_pdf">No valid PDF files selected. Please select PDF documents.</string>
+    <string name="invalid_pdf_file">Please select a valid PDF file (.pdf)</string>
+
+    <!-- Split PDF Feature -->
+    <string name="split_change_pdf">Change PDF</string>
+    <string name="split_select_title">Select PDF Document</string>
+    <string name="split_select_subtitle">Choose a PDF to view and extract specific pages</string>
+    <string name="split_select_btn">Select PDF File</string>
+    <string name="split_tab_all">Split All Pages</string>
+    <string name="split_tab_custom">Select Specific Pages</string>
+    <string name="split_all_title">Split Every Page</string>
+    <string name="split_all_desc">Every page of this PDF will be split into a separate 1-page PDF file.</string>
+    <string name="split_all_btn">Split All %1$d Pages</string>
+    <string name="split_range_label">Page Range</string>
+    <string name="split_range_hint">e.g. 1-3, 5, 8-10</string>
+    <string name="split_range_apply">Apply</string>
+    <string name="split_range_invalid">Invalid page numbers entered</string>
+    <string name="split_filter_odd">Odd</string>
+    <string name="split_filter_even">Even</string>
+    <string name="split_selected_count">pages selected</string>
+    <string name="split_select_all">Select All</string>
+    <string name="split_deselect_all">Clear</string>
+    <string name="split_page_label">Page</string>
+    <string name="split_extract_btn">Extract Pages</string>
+    <string name="split_options_title">Extract Pages</string>
+    <string name="split_options_subtitle">pages selected. Choose extraction format:</string>
+    <string name="split_option_single_title">Extract as Single PDF</string>
+    <string name="split_option_single_desc">Combines selected pages into one unified PDF document</string>
+    <string name="split_option_separate_title">Extract as Separate PDFs</string>
+    <string name="split_option_separate_desc">Saves each selected page as an independent 1-page PDF</string>
+    <string name="split_loading_pages">Generating page previews…</string>
+    <string name="split_progress_title">Extracting Pages…</string>
+    <string name="split_progress_desc">Extracting page</string>
+
+    <!-- Compress PDF Feature -->
+    <string name="compress_select_title">Select PDF to Compress</string>
+    <string name="compress_select_subtitle">Choose a PDF file to reduce its size with native optimization</string>
+    <string name="compress_select_btn">Select PDF File</string>
+    <string name="compress_change_pdf">Change PDF</string>
+    <string name="compress_original_size">Original Size</string>
+    <string name="compress_compressed_size">Compressed Size</string>
+    <string name="compress_pages_count">Pages</string>
+    <string name="compress_level_title">Select Compression Level</string>
+    <string name="compress_level_min_title">Minimum Compression</string>
+    <string name="compress_level_min_desc">Ultra quality &amp; crisp text (~220 DPI, 88% quality)</string>
+    <string name="compress_level_min_badge">~30% Smaller</string>
+    <string name="compress_level_med_title">Recommended</string>
+    <string name="compress_level_med_desc">High quality &amp; size balance (~150 DPI, 75% quality)</string>
+    <string name="compress_level_med_badge">~55% Smaller</string>
+    <string name="compress_level_max_title">High Compression</string>
+    <string name="compress_level_max_desc">Small size with clear text (~90 DPI, 50% quality)</string>
+    <string name="compress_level_max_badge">~75% Smaller</string>
+    <string name="compress_action_btn">Compress PDF</string>
+    <string name="compress_progress_title">Compressing PDF…</string>
+    <string name="compress_progress_desc">Processing page</string>
+    <string name="compress_result_title">PDF Compressed!</string>
+    <string name="compress_result_saved_badge">Smaller</string>
+    <string name="compress_saved_location">Saved to: Documents/SuperFastScan</string>
+    <string name="compress_btn_view">View PDF</string>
+    <string name="compress_btn_share">Share PDF</string>
+    <string name="compress_btn_save_as">Save As / Export to Files</string>
+    <string name="compress_save_success">PDF saved successfully!</string>
+    <string name="compress_btn_another">Compress Another PDF</string>
+
+    <!-- Watermark PDF Feature -->
+    <string name="watermark_select_title">Select PDF to Watermark</string>
+    <string name="watermark_select_subtitle">Add custom text or image watermark with interactive preview</string>
+    <string name="watermark_select_btn">Select PDF File</string>
+    <string name="watermark_change_pdf">Change PDF</string>
+    <string name="watermark_tab_content">Content</string>
+    <string name="watermark_tab_style">Style &amp; Position</string>
+    <string name="watermark_tab_pages">Pages</string>
+    <string name="watermark_type_text">Text</string>
+    <string name="watermark_type_image">Image / Logo</string>
+    <string name="watermark_input_label">Watermark Text</string>
+    <string name="watermark_input_hint">Enter watermark text…</string>
+    <string name="watermark_preset_label">Quick Templates</string>
+    <string name="watermark_preset_confidential">CONFIDENTIAL</string>
+    <string name="watermark_preset_draft">DRAFT</string>
+    <string name="watermark_preset_sample">SAMPLE</string>
+    <string name="watermark_preset_copy">COPY</string>
+    <string name="watermark_preset_urgent">URGENT</string>
+    <string name="watermark_color_label">Text Color</string>
+    <string name="watermark_bold_label">Bold</string>
+    <string name="watermark_select_image_btn">Select Company Logo / Image</string>
+    <string name="watermark_change_image_btn">Change Logo</string>
+    <string name="watermark_image_logo_hint">Transparent PNG company logo is recommended</string>
+    <string name="watermark_opacity_label">Opacity</string>
+    <string name="watermark_opacity_hint">Ideal Range: 20% - 40% (Preserves text legibility)</string>
+    <string name="watermark_rotation_label">Orientation &amp; Angle</string>
+    <string name="watermark_scale_label">Size &amp; Scale</string>
+    <string name="watermark_btn_center">Center</string>
+    <string name="watermark_layer_badge">Layer: Behind document text (Background)</string>
+    <string name="watermark_scope_title">Page Scope</string>
+    <string name="watermark_scope_all">All Pages</string>
+    <string name="watermark_scope_exclude_cover">Exclude Cover (Page 2+)</string>
+    <string name="watermark_scope_exclude_cover_desc">Cover page usually doesn\'t have watermark</string>
+    <string name="watermark_scope_first_only">First Page Only</string>
+    <string name="watermark_scope_custom">Custom Range</string>
+    <string name="watermark_custom_pages_hint">e.g. 2-5, 8</string>
+    <string name="watermark_apply_all_pages">Apply to all pages</string>
+    <string name="watermark_action_btn">Apply Watermark</string>
+    <string name="watermark_progress_title">Applying Watermark…</string>
+    <string name="watermark_progress_desc">Stamping page</string>
+    <string name="watermark_result_title">Watermark Applied!</string>
+    <string name="watermark_saved_location">Saved to: Documents/SuperFastScan</string>
+    <string name="watermark_btn_view">View PDF</string>
+    <string name="watermark_btn_share">Share PDF</string>
+    <string name="watermark_btn_save_as">Save As / Export to Files</string>
+    <string name="watermark_save_success">PDF saved successfully!</string>
+    <string name="watermark_btn_another">Watermark Another PDF</string>
+
+    <!-- Rotate PDF Feature -->
+    <string name="rotate_select_title">Select PDF to Rotate</string>
+    <string name="rotate_select_subtitle">Rotate individual pages or the entire document with live visual grid</string>
+    <string name="rotate_select_btn">Select PDF File</string>
+    <string name="rotate_change_pdf">Change PDF</string>
+    <string name="rotate_all_left">Rotate Left</string>
+    <string name="rotate_all_right">Rotate Right</string>
+    <string name="rotate_reset">Reset</string>
+    <string name="rotate_save_btn">Save PDF</string>
+    <string name="rotate_saving_title">Saving PDF…</string>
+    <string name="rotate_saving_desc">Applying non-destructive rotation…</string>
+    <string name="rotate_result_title">PDF Rotated Successfully!</string>
+    <string name="rotate_saved_location">Saved to: Documents/SuperFastScan</string>
+    <string name="rotate_btn_view">View PDF</string>
+    <string name="rotate_btn_share">Share PDF</string>
+    <string name="rotate_btn_save_as">Save As / Export to Files</string>
+    <string name="rotate_save_success">PDF saved successfully!</string>
+    <string name="rotate_btn_another">Rotate Another PDF</string>
+    <string name="rotate_page_badge">Page</string>
+
+    <!-- Organize PDF Feature -->
+    <string name="organize_select_title">Select PDF to Reorder</string>
+    <string name="organize_select_subtitle">Drag and drop pages to rearrange, delete unwanted pages, or add new ones</string>
+    <string name="organize_select_btn">Select PDF File</string>
+    <string name="organize_change_pdf">Change PDF</string>
+    <string name="organize_page_count">%1$d Pages</string>
+    <string name="organize_drag_hint">Long press and drag pages to reorder</string>
+    <string name="organize_add_page_btn">Add Page</string>
+    <string name="organize_add_blank_page">Add Blank Page</string>
+    <string name="organize_add_blank_page_desc">Insert an empty white page</string>
+    <string name="organize_append_pdf">Add Another PDF</string>
+    <string name="organize_append_pdf_desc">Append pages from another PDF document</string>
+    <string name="organize_blank_page_badge">Blank Page</string>
+    <string name="organize_delete_page_title">Delete Page</string>
+    <string name="organize_delete_page_msg">Are you sure you want to remove Page %1$d?</string>
+    <string name="organize_save_btn">Save PDF</string>
+    <string name="organize_saving_title">Saving PDF…</string>
+    <string name="organize_saving_desc">Rebuilding document with your new page order…</string>
+    <string name="organize_result_title">PDF Organized Successfully!</string>
+    <string name="organize_saved_location">Saved to: Documents/SuperFastScan</string>
+    <string name="organize_btn_view">View PDF</string>
+    <string name="organize_btn_share">Share PDF</string>
+    <string name="organize_btn_save_as">Save As / Export to Files</string>
+    <string name="organize_save_success">PDF saved successfully!</string>
+    <string name="organize_btn_another">Organize Another PDF</string>
+    <string name="organize_page_badge">Page</string>
+
+    <!-- Word to PDF Feature -->
+    <string name="word_to_pdf_title">Word to PDF</string>
+    <string name="word_to_pdf_select_title">Select Word Document</string>
+    <string name="word_to_pdf_select_subtitle">Select a .docx or .doc file to convert to high quality PDF</string>
+    <string name="word_to_pdf_select_btn">Select Word Document</string>
+    <string name="word_to_pdf_change_file">Change Document</string>
+    <string name="word_to_pdf_convert_btn">Convert to PDF</string>
+    <string name="word_to_pdf_converting">Converting document</string>
+    <string name="word_to_pdf_converting_hint">Uploading document and converting via Gotenberg engine…</string>
+    <string name="word_to_pdf_result_title">Converted Successfully!</string>
+    <string name="word_to_pdf_result_desc">Your Word document has been converted to PDF.</string>
+    <string name="word_to_pdf_btn_view">View PDF</string>
+    <string name="word_to_pdf_btn_share">Share PDF</string>
+    <string name="word_to_pdf_btn_save_as">Save As / Export</string>
+    <string name="word_to_pdf_btn_another">Convert Another Document</string>
+    <string name="word_to_pdf_saved_location">Saved to: Documents/SuperFastScan</string>
+    <string name="word_to_pdf_invalid_format">Please select a valid Word file (.docx or .doc)</string>
+    <string name="word_to_pdf_conversion_error">Conversion failed: %1$s</string>
+    <string name="word_to_pdf_save_success">PDF saved successfully!</string>
+    <string name="word_to_pdf_file_info">Word Document</string>
+    <string name="word_to_pdf_custom_name_hint">Output PDF name (optional)</string>
+    <string name="word_to_pdf_cloud_note">High-fidelity LibreOffice conversion preserving layout, tables, fonts &amp; images</string>
+    <string name="conversion_requires_internet">This conversion requires an internet connection</string>
+
+    <!-- PPT to PDF Feature -->
+    <string name="ppt_to_pdf_title">PowerPoint to PDF</string>
+    <string name="ppt_to_pdf_select_title">Select Presentation</string>
+    <string name="ppt_to_pdf_select_subtitle">Select a .pptx, .ppt, or .odp file to convert to high quality PDF</string>
+    <string name="ppt_to_pdf_select_btn">Select Presentation</string>
+    <string name="ppt_to_pdf_file_info">PowerPoint Presentation</string>
+    <string name="ppt_to_pdf_invalid_format">Please select a valid PowerPoint file (.pptx, .ppt, .ppsx, .odp)</string>
+
+    <!-- Excel to PDF Feature -->
+    <string name="excel_to_pdf_title">Excel to PDF</string>
+    <string name="excel_to_pdf_select_title">Select Spreadsheet</string>
+    <string name="excel_to_pdf_select_subtitle">Select a .xlsx, .xls, or .csv file to convert to high quality PDF</string>
+    <string name="excel_to_pdf_select_btn">Select Spreadsheet</string>
+    <string name="excel_to_pdf_file_info">Excel Spreadsheet</string>
+    <string name="excel_to_pdf_invalid_format">Please select a valid Excel file (.xlsx, .xls, .csv, .ods)</string>
+    <string name="invalid_image_file">Please select valid image files (.jpg, .png, .webp)</string>
+
+    <!-- JPG to PDF Feature -->
+    <string name="jpg_to_pdf_title">JPG to PDF</string>
+    <string name="jpg_to_pdf_select_title">Select Images</string>
+    <string name="jpg_to_pdf_select_subtitle">Choose one or multiple images to convert into a single PDF</string>
+    <string name="jpg_to_pdf_select_btn">Select Images</string>
+    <string name="jpg_to_pdf_add_more">Add More Images</string>
+    <string name="jpg_to_pdf_images_count">%1$d images selected</string>
+    <string name="jpg_to_pdf_convert_btn">Convert to PDF</string>
+    <string name="jpg_to_pdf_converting">Creating PDF from images…</string>
+    <string name="jpg_to_pdf_result_title">PDF Created Successfully!</string>
+    <string name="jpg_to_pdf_result_desc">Your images have been compiled into a high quality PDF.</string>
+    <string name="jpg_to_pdf_btn_another">Convert More Images</string>
+
+    <!-- PDF to JPG Feature -->
+    <string name="pdf_to_jpg_title">PDF to JPG</string>
+    <string name="pdf_to_jpg_select_title">Select PDF Document</string>
+    <string name="pdf_to_jpg_select_subtitle">Extract all pages of your PDF as high resolution JPG images</string>
+    <string name="pdf_to_jpg_select_btn">Select PDF File</string>
+    <string name="pdf_to_jpg_convert_btn">Extract JPG Pages</string>
+    <string name="pdf_to_jpg_extracting">Extracting JPG images…</string>
+    <string name="pdf_to_jpg_result_title">Images Extracted Successfully!</string>
+    <string name="pdf_to_jpg_result_desc">%1$d pages saved to your gallery in Pictures/SuperFastScan.</string>
+    <string name="pdf_to_jpg_saved_location">Saved to: Pictures/SuperFastScan</string>
+    <string name="pdf_to_jpg_btn_view">Open Photos</string>
+    <string name="pdf_to_jpg_btn_share">Share Images</string>
+    <string name="pdf_to_jpg_btn_another">Extract Another PDF</string>
+
+    <!-- PDF to Office Features -->
+    <string name="pdf_to_office_select_pdf">Select PDF Document</string>
+    <string name="pdf_to_office_select_sub">Choose a PDF file to convert into an editable office format</string>
+    <string name="pdf_to_word_select_sub">Choose a PDF file to convert to Word</string>
+    <string name="pdf_to_excel_select_sub">Choose a PDF file to convert to Excel</string>
+    <string name="pdf_to_ppt_select_sub">Choose a PDF file to convert to PowerPoint</string>
+    <string name="pdf_to_office_converting">Converting document</string>
+    <string name="pdf_to_office_result_title">Converted Successfully!</string>
+    <string name="pdf_to_office_result_desc">Your document has been extracted and saved to your device.</string>
+    <string name="pdf_to_office_btn_open">Open File</string>
+    <string name="pdf_to_office_btn_share">Share File</string>
+    <string name="pdf_to_office_btn_another">Convert Another File</string>
+
+    <!-- OCR Text Recognition & Searchable PDF Feature -->
+    <string name="tool_ocr">OCR &amp; Searchable PDF</string>
+    <string name="tool_ocr_desc">Make scanned PDFs searchable with invisible text layer or extract text</string>
+    <string name="ocr_title">OCR &amp; Searchable PDF</string>
+    <string name="ocr_select_image">Choose Image</string>
+    <string name="ocr_take_photo">Capture Photo</string>
+    <string name="ocr_select_pdf">Select Scanned PDF</string>
+    <string name="ocr_make_searchable">Create Searchable PDF</string>
+    <string name="ocr_extracting">Recognizing text on-device…</string>
+    <string name="ocr_processing_page">Processing page %1$d of %2$d…</string>
+    <string name="ocr_searchable_success">Searchable PDF Created!</string>
+    <string name="ocr_searchable_desc">Text has been embedded invisibly into the PDF aligned with original visuals. You can now search words, highlight, and copy text directly.</string>
+    <string name="ocr_open_pdf">Open Searchable PDF</string>
+    <string name="ocr_share_pdf">Share Searchable PDF</string>
+    <string name="ocr_tab_pdf">Scanned PDF</string>
+    <string name="ocr_tab_image">Image / Camera</string>
+    <string name="ocr_copied">Text copied to clipboard</string>
+    <string name="ocr_copy">Copy Text</string>
+    <string name="ocr_share">Share Text</string>
+    <string name="ocr_save_txt">Save as .txt</string>
+    <string name="ocr_save_success">Text saved to Documents/SuperFastScan</string>
+    <string name="ocr_no_text_found">No readable text found in this document</string>
+    <string name="ocr_empty_title">Convert Document to OCR (Optical Character Recognition) Format</string>
+    <string name="ocr_empty_subtitle">Convert PDFs into high-quality searchable documents.</string>
+    <string name="ocr_word_count">%1$d words • %2$d characters</string>
+    <string name="ocr_parsed_in">Extracted in %1$d ms on-device</string>
+    <string name="ocr_btn_another">Process Another File</string>
+
+    <!-- Premium & Subscription Feature -->
+    <string name="premium_title">Super Fast PDF Scanner Premium</string>
+    <string name="premium_subtitle">100% Ad-Free &amp; Uninterrupted Experience</string>
+    <string name="premium_benefit_adfree_title">100% Ad-Free Experience</string>
+    <string name="premium_benefit_adfree_desc">Navigate inside the app smoothly without any ads.</string>
+    <string name="premium_benefit_speed_title">Uninterrupted Flow</string>
+    <string name="premium_benefit_speed_desc">Scan and convert documents seamlessly without interruptions.</string>
+    <string name="premium_benefit_tools_title">Unlimited Scanning Feature</string>
+    <string name="premium_benefit_tools_desc">The unlimited scanning feature included in the standard version continues.</string>
+    <string name="premium_subscribe_btn">Start with %s / Month</string>
+    <string name="premium_subscribe_fallback_btn">Subscribe for $0.99 / Month</string>
+    <string name="premium_restore_btn">Restore Purchases</string>
+    <string name="premium_restore_success">Your subscription has been successfully restored!</string>
+    <string name="premium_restore_not_found">No active subscription found for this account.</string>
+    <string name="premium_auto_renew_disclosure">Your subscription renews automatically each month via your Google Play account. You can cancel anytime from Google Play Subscriptions.</string>
+    <string name="premium_terms_of_use">Terms of Use</string>
+    <string name="premium_privacy_policy">Privacy Policy</string>
+    <string name="premium_badge_title">PREMIUM</string>
+    <string name="home_badge_free">Ad-Free</string>
+    <string name="home_badge_premium">Premium</string>
+    <string name="home_unlimited_scan_notice">Unlimited scanning feature included</string>
+    <string name="home_unlimited_scan_dialog_title">Unlimited Scanning</string>
+    <string name="home_unlimited_scan_dialog_desc">This app provides unlimited, quota-free, and uninterrupted scanning and conversion services. You can perform your scanning operations freely within the app. In-app payments are only collected for the ad-free version.</string>
+    <string name="btn_ok">Got It</string>
+    <string name="premium_settings_card_title">Upgrade to Premium</string>
+    <string name="premium_settings_card_desc">Remove all ads, enjoy lightning speed.</string>
+    <string name="premium_status_active">Premium Active</string>
+    <string name="premium_status_free">Free Tier</string>
+
+    <!-- Quick Scan Widget -->
+    <string name="widget_scan_now">Tap to Scan</string>
+    <string name="widget_description">Quick Scan shortcut widget for your home screen</string>
+    <string name="widget_add_to_home">Add to Home Screen</string>
+    <string name="widget_section_title">Home Screen Quick Scan Widget</string>
+    <string name="widget_section_desc">Place a quick scan widget on your device home screen to start scanning with a single tap.</string>
+    <string name="widget_pin_requested">Widget placement request sent to home screen.</string>
+    <string name="widget_pin_not_supported">To add the widget, touch and hold an empty space on your home screen and select Widgets.</string>
+    <string name="widget_banner_title">Quick Scan Widget</string>
+    <string name="widget_banner_desc">Add a 1-tap scan widget to your home screen!</string>
+
+    <!-- Theme Selection -->
+    <string name="settings_theme">Theme</string>
+    <string name="theme_system">System Default</string>
+    <string name="theme_system_desc">Follows your device system settings</string>
+    <string name="theme_light">Light Theme</string>
+    <string name="theme_light_desc">Bright and fresh appearance</string>
+    <string name="theme_dark">Dark Theme</string>
+    <string name="theme_dark_desc">Easy on the eyes dark appearance</string>
+
+    <!-- Google Play In-App Review Survey -->
+    <string name="review_dialog_title">Enjoying Fast Scan PDF?</string>
+    <string name="review_dialog_desc">You\'ve successfully completed 10 scans! Would you take a moment to rate us on Google Play? Your feedback helps us keep improving.</string>
+    <string name="review_dialog_rate_button">Rate on Google Play</string>
+    <string name="review_dialog_later_button">Maybe Later</string>
+
+    <!-- Network & Server Error Messages -->
+    <string name="error_no_internet">Internet connection required</string>
+    <string name="error_server_connection">Connection error, please try again</string>
+
+    <!-- Contact Us -->
+    <string name="settings_contact_us">Contact Us</string>
+    <string name="settings_contact_us_desc">Send email for feedback, suggestions, and support</string>
+    <string name="contact_us_title">Contact Us</string>
+    <string name="contact_us_desc">Your feedback, questions, and suggestions are vital to making Fast Scan PDF better. Feel free to reach out to us anytime via email.</string>
+    <string name="contact_email_label">Support Email Address</string>
+    <string name="contact_email_address">seydialiiclek@gmail.com</string>
+    <string name="contact_send_email_button">Send Email</string>
+    <string name="contact_copy_email_button">Copy Email</string>
+    <string name="contact_email_copied">Email address copied to clipboard!</string>
+    <string name="contact_topic_label">Select Topic:</string>
+    <string name="contact_topic_feedback">💡 Suggestion &amp; Idea</string>
+    <string name="contact_topic_bug">🐛 Bug Report</string>
+    <string name="contact_topic_support">❓ Question &amp; Support</string>
+    <string name="contact_topic_general">⭐ General Feedback</string>
+    <string name="contact_email_subject_template">[Fast Scan PDF] %1$s</string>
+    <string name="contact_email_body_template">Hello Fast Scan PDF Team,\n\nTopic: %1$s\n\n[Please enter your message, suggestions, or issue details here]\n\n\n----------------------------------------\nDevice Information:\n- Device Model: %2$s\n- Android Version: %3$s (SDK %4$d)\n- App Version: %5$s\n----------------------------------------</string>
+    <string name="contact_email_subject_default">[Fast Scan PDF] Support &amp; Feedback</string>
+    <string name="contact_email_body_simple">Hello Fast Scan PDF Team,\n\n[Please enter your message, suggestions, or issue details here]\n\n\n----------------------------------------\nDevice Information:\n- Device Model: %1$s\n- Android Version: %2$s (SDK %3$d)\n- App Version: %4$s\n----------------------------------------</string>
+    <string name="contact_no_email_client">No email app found. Email address copied to clipboard.</string>
+</resources>
+

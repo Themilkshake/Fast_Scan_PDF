@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<full-backup-content>
+    <include domain="database" path="super_fast_scan.db" />
+    <include domain="sharedpref" path="." />
+    <exclude domain="file" path="scans/" />
+</full-backup-content>

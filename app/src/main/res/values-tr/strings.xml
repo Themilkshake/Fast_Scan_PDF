@@ -1,0 +1,555 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Super Fast PDF Scanner</string>
+
+    <!-- Ana Ekran -->
+    <string name="btn_scan">Tara</string>
+    <string name="btn_saved_scans">Kayıtlı Taramalar</string>
+    <string name="btn_settings">Ayarlar</string>
+    <string name="home_tagline">Çek, Düzenle, Dışa Aktar — Yıldırım Hızında</string>
+    <string name="home_footer">%100 Reklamsız • Gizliliğiniz Önemlidir</string>
+
+    <!-- Kamera Ekranı -->
+    <string name="capture">Çek</string>
+    <string name="done">Tamam</string>
+    <string name="pages">sayfa</string>
+    <string name="camera_permission_required">Belge taramak için kamera izni gereklidir.</string>
+    <string name="grant_permission">İzin Ver</string>
+    <string name="back">Geri</string>
+
+    <!-- Düzenleme Ekranı -->
+    <string name="edit_title">Sayfaları Düzenle</string>
+    <string name="rotate_left">Sola Döndür</string>
+    <string name="rotate_right">Sağa Döndür</string>
+    <string name="crop">Kırp</string>
+    <string name="delete">Sil</string>
+    <string name="edit">Düzenle</string>
+    <string name="no_pages">Düzenlenecek sayfa yok</string>
+    <string name="export_button">Dışa Aktar</string>
+
+    <!-- Filtreler -->
+    <string name="filter_original">Orijinal</string>
+    <string name="filter_grayscale">Gri Ton</string>
+    <string name="filter_black_white">S&amp;B</string>
+    <string name="filter_enhanced">Gelişmiş</string>
+
+    <!-- Dışa Aktarma Ekranı -->
+    <string name="export_title">Belgeyi Kaydet</string>
+    <string name="file_name">Dosya Adı</string>
+    <string name="file_name_placeholder">ör. Fatura, Sözleşme…</string>
+    <string name="export_format">Kayıt Formatı</string>
+    <string name="export_save">Belgeyi Kaydet</string>
+    <string name="export_save_button">Cihaza Kaydet</string>
+    <string name="export_success">Başarıyla Kaydedildi!</string>
+    <string name="export_saved_to">Belgeniz cihazınıza kaydedildi.</string>
+    <string name="back_to_home">Ana Sayfaya Dön</string>
+    <string name="pdf_format_info">Tüm sayfalar tek bir PDF belgesinde birleştirilecek. Belgeler, sözleşmeler ve paylaşım için idealdir.</string>
+    <string name="jpg_format_info">Her sayfa ayrı bir JPG görüntüsü olarak kaydedilecek. Fotoğraflar ve tek sayfalar için idealdir.</string>
+    <string name="export_pdf_title">PDF Belgesi</string>
+    <string name="export_pdf_desc">Tüm sayfalar tek dosyada • Paylaşım için ideal</string>
+    <string name="export_jpg_title">JPG Fotoğrafları</string>
+    <string name="export_jpg_desc">Her sayfa ayrı yüksek kaliteli görsel olarak kaydedilir</string>
+    <string name="export_destination">Kayıt Konumu</string>
+    <string name="export_destination_path">Cihaz Hafızası > Belgeler > SuperFastScan</string>
+    <string name="export_recommended_badge">Önerilen</string>
+    <string name="export_document_summary">Belge Özeti</string>
+
+    <!-- Kayıtlı Taramalar Ekranı -->
+    <string name="no_saved_scans">Henüz Kayıtlı Tarama Yok</string>
+    <string name="no_saved_scans_hint">Taranan belgeler burada görünecek</string>
+    <string name="untitled_document">İsimsiz Belge</string>
+
+    <!-- Delete Confirmation -->
+    <string name="delete_confirmation_title">Taramayı Sil</string>
+    <string name="delete_confirmation_message">Bu taramayı silmek istediğinize emin misiniz? Bu işlem geri alınamaz.</string>
+    <string name="delete_confirm_button">Sil</string>
+    <string name="delete_cancel_button">İptal</string>
+    <string name="delete_from_files_option">Dosyalardan da silinsin mi?</string>
+
+    <!-- Belge Düzenleme Ekranı -->
+    <string name="edit_document_title">Belgeyi Düzenle</string>
+    <string name="page_indicator">Sayfa %1$d / %2$d</string>
+    <string name="save_and_export">Kaydet ve Dışa Aktar</string>
+    <string name="delete_page_title">Sayfayı Sil</string>
+    <string name="delete_page_message">Bu sayfayı silmek istediğinize emin misiniz?</string>
+    <string name="no_pages_remaining">Kalan sayfa yok. Belge silinecek.</string>
+
+    <!-- Çıkış Onayı -->
+    <string name="exit_confirm_title">Kaydetmeden Çıkılsın mı?</string>
+    <string name="exit_confirm_message">Taranan belgeleriniz güvende! Tüm sayfalar \'Kayıtlı Taramalar\' bölümüne kaydedildi. İstediğiniz zaman ana menüden düzenlemeye ve kaydetmeye devam edebilirsiniz.</string>
+    <string name="exit_confirm_button">Ana Sayfaya Dön</string>
+    <string name="exit_cancel_button">Kal ve Devam Et</string>
+
+    <!-- Ayarlar Ekranı -->
+    <string name="settings_language">Dil</string>
+    <string name="settings_about">Hakkında</string>
+    <string name="app_version">Sürüm 1.0.0</string>
+    <string name="developer_label">Geliştirici</string>
+    <string name="developer_name">SAI Technologies</string>
+    <string name="about_description">Super Fast PDF Scanner, hareket halindeki insanlar için tasarlanmış, yıldırım hızında ve reklamsız bir belge tarayıcıdır. Belgelerinizi saniyeler içinde çekin, düzenleyin ve dışa aktarın.</string>
+    <string name="settings_scan_export_section">Tarama &amp; Kayıt Tercihleri</string>
+    <string name="settings_default_format">Varsayılan Format</string>
+    <string name="settings_default_format_desc">Taramalar bittiğinde otomatik kaydedilecek format</string>
+    <string name="settings_default_location">Varsayılan Kayıt Konumu</string>
+    <string name="settings_default_location_desc">Cihaz Belgeleri (SuperFastScan)</string>
+
+    <!-- İlk Kurulum Başlangıç Ayarları -->
+    <string name="initial_setup_title">Hızlı Tarama Tercihleri</string>
+    <string name="initial_setup_desc">En hızlı tarama deneyimi için varsayılan kayıt tercihlerinizi belirleyin. Taramalarınız çekim sonrasında otomatik olarak bu ayarlarla kaydedilecektir.</string>
+    <string name="initial_setup_notice">Bu seçimleri daha sonra istediğiniz zaman Ayarlar menüsünden değiştirebilirsiniz.</string>
+    <string name="initial_setup_btn">Kaydet ve Başla</string>
+    <string name="format_pdf_title">PDF Belgesi (.pdf)</string>
+    <string name="format_pdf_desc">Önerilen • Tüm sayfalar tek bir belgede birleştirilir</string>
+    <string name="format_jpg_title">JPG Fotoğrafları (.jpg)</string>
+    <string name="format_jpg_desc">Her sayfa ayrı yüksek çözünürlüklü görsel olarak kaydedilir</string>
+    <string name="save_location_label">Kayıt Konumu</string>
+    <string name="save_location_value">Belgeler / SuperFastScan</string>
+    <string name="btn_save_document">Belgeyi Kaydet</string>
+    <string name="saving_document_progress">Belge kaydediliyor…</string>
+    <string name="format_default_badge">Varsayılan</string>
+    <string name="error_open_file">Dışa aktarılan dosya açılamadı veya uygun uygulama bulunamadı.</string>
+    <string name="btn_home">Ana Sayfa</string>
+    <string name="btn_history">Geçmiş</string>
+
+    <!-- PDF Tools Section -->
+    <string name="app_subtitle">Profesyonel Belge Tarayıcı</string>
+    <string name="show_all">Tümünü Göster</string>
+    <string name="hide_all">Gizle</string>
+    <string name="ad_loading">Reklam Yükleniyor…</string>
+    <string name="pdf_tools_section_title">PDF Araçları</string>
+    <string name="tool_coming_soon">Yakında</string>
+
+    <string name="tool_merge_pdf">PDF Birleştir</string>
+    <string name="tool_merge_pdf_desc">PDF\'leri dilediğiniz sırada birleştirin</string>
+
+    <string name="tool_split_pdf">PDF Ayır</string>
+    <string name="tool_split_pdf_desc">Tek bir sayfa ayıklayın veya birden fazla bağımsız PDF\'e ayırın</string>
+
+    <string name="tool_compress_pdf">PDF Sıkıştır</string>
+    <string name="tool_compress_pdf_desc">Maksimum kaliteyi koruyarak dosya boyutunu küçültün</string>
+
+    <string name="tool_pdf_to_word">PDF to Word</string>
+    <string name="tool_pdf_to_word_desc">PDF\'i yüksek doğrulukla DOC/DOCX formatına dönüştürün</string>
+
+    <string name="tool_pdf_to_ppt">PDF to PowerPoint</string>
+    <string name="tool_pdf_to_ppt_desc">PDF\'i düzenlenebilir PowerPoint formatına dönüştürün</string>
+
+    <string name="tool_pdf_to_excel">PDF to Excel</string>
+    <string name="tool_pdf_to_excel_desc">PDF verilerini saniyeler içinde EXCEL formatına aktarın</string>
+
+    <string name="tool_word_to_pdf">Word to PDF</string>
+    <string name="tool_word_to_pdf_desc">DOC/DOCX dosyalarını okunabilir PDF formatına dönüştürün</string>
+
+    <string name="tool_ppt_to_pdf">PowerPoint to PDF</string>
+    <string name="tool_ppt_to_pdf_desc">PowerPoint sunumlarını kolayca görüntülenebilir PDF formatına dönüştürün</string>
+
+    <string name="tool_excel_to_pdf">Excel to PDF</string>
+    <string name="tool_excel_to_pdf_desc">EXCEL dosyalarını okunabilir PDF formatına dönüştürün</string>
+
+
+    <string name="tool_pdf_to_jpg">PDF to JPG</string>
+    <string name="tool_pdf_to_jpg_desc">Her sayfayı JPG\'ye dönüştürün veya PDF içindeki görselleri ayıklayın</string>
+
+    <string name="tool_jpg_to_pdf">JPG to PDF</string>
+    <string name="tool_jpg_to_pdf_desc">JPG görsellerini saniyeler içinde PDF\'e dönüştürün</string>
+
+    <string name="tool_sign_pdf">PDF İmzala</string>
+    <string name="tool_sign_pdf_desc">Belgeyi kendiniz imzalayın veya başkalarından e-imza talep edin</string>
+
+    <string name="tool_watermark">Filigran</string>
+    <string name="tool_watermark_desc">PDF üzerine saniyeler içinde metin veya görsel filigran basın</string>
+
+    <string name="tool_rotate_pdf">PDF Döndür</string>
+    <string name="tool_rotate_pdf_desc">PDF sayfalarınızı dilediğiniz gibi döndürün</string>
+
+    <string name="tool_organize_pdf">PDF Sırala</string>
+    <string name="tool_organize_pdf_desc">PDF sayfalarınızı dilediğiniz gibi sıralayın veya yeniden düzenleyin</string>
+
+    <!-- Sign PDF Feature -->
+    <string name="sign_select_pdf">PDF Seç</string>
+    <string name="sign_select_pdf_hint">İmzalama işlemine başlamak için sağ üstten bir PDF belgesi seçin.</string>
+    <string name="sign_tab_yourself">Kendin İmzala</string>
+    <string name="sign_tab_request">E-İmza Talep Et</string>
+    <string name="sign_draw_title">İmzanızı Çizin</string>
+    <string name="sign_draw_hint">Aşağıdaki alana parmağınızla imzanızı çizin.</string>
+    <string name="sign_clear">Temizle</string>
+    <string name="sign_done">Tamam</string>
+    <string name="sign_add_signature">İmza Ekle</string>
+    <string name="sign_change_signature">İmzayı Değiştir</string>
+    <string name="sign_save_document">Belgeyi Kaydet</string>
+    <string name="sign_save_success">Başarıyla İmzalandı!</string>
+    <string name="sign_save_success_desc">İmzalı PDF belgesi cihazınıza kaydedildi.</string>
+    <string name="sign_request_title">E-İmza Talep Et</string>
+    <string name="sign_request_desc">Bu belgeyi dijital imza talep etmek için başkasına gönderin.</string>
+    <string name="sign_recipient_name">Alıcı Adı *</string>
+    <string name="sign_recipient_email">Alıcı E-postası *</string>
+    <string name="sign_message_optional">Mesaj (İsteğe bağlı)</string>
+    <string name="sign_send_request">Talep Gönder</string>
+    <string name="sign_request_sent">Talep Başarıyla Gönderildi!</string>
+    <string name="sign_request_sent_desc">Alıcıya belgeyi imzalaması için bir e-posta daveti gönderildi.</string>
+    <string name="sign_send_another">Başka Talep Gönder</string>
+    <string name="sign_size_label">İmza Boyutu</string>
+    <string name="sign_color_label">Mürekkep Rengi</string>
+    <string name="sign_select_pdf_btn">PDF Belgesi Seç</string>
+    <string name="sign_select_pdf_sub">İmzalama işlemine başlamak için bir PDF seçin</string>
+
+    <!-- Merge PDF Feature -->
+    <string name="merge_add_more_btn">Daha Fazla PDF Ekle</string>
+    <string name="merge_select_title">PDF Dosyalarını Seçin</string>
+    <string name="merge_select_subtitle">Tek bir dosyada birleştirmek için 2 veya daha fazla PDF belgesi seçin</string>
+    <string name="merge_select_btn">PDF Dosyalarını Seç</string>
+    <string name="merge_reorder_hint">PDF\'leri sıralamak için karta basılı tutup sağa-sola sürükleyin</string>
+    <string name="merge_files_count">dosya seçildi</string>
+    <string name="merge_total_label">toplam</string>
+    <string name="merge_action_btn">PDF\'leri Birleştir</string>
+    <string name="merge_loading_files">PDF dosyaları inceleniyor…</string>
+    <string name="merge_progress_title">PDF\'ler Birleştiriliyor…</string>
+    <string name="merge_progress_desc">İşlenen dosya:</string>
+    <string name="merge_no_valid_pdf">Geçerli bir PDF dosyası seçilmedi. Lütfen PDF belgeleri seçin.</string>
+    <string name="invalid_pdf_file">Lütfen geçerli bir PDF dosyası seçin (.pdf)</string>
+
+    <!-- Split PDF Feature -->
+    <string name="split_change_pdf">PDF\'i Değiştir</string>
+    <string name="split_select_title">PDF Belgesi Seçin</string>
+    <string name="split_select_subtitle">Sayfalarını ayıklamak istediğiniz bir PDF belgesi seçin</string>
+    <string name="split_select_btn">PDF Dosyası Seç</string>
+    <string name="split_tab_all">Tümünü Tek Tek Ayır</string>
+    <string name="split_tab_custom">Belirli Sayfaları Seç</string>
+    <string name="split_all_title">Tüm Sayfaları Tek Tek Ayır</string>
+    <string name="split_all_desc">Bu belgedeki tüm sayfalar bağımsız 1\'er sayfalık PDF dosyaları olarak ayrılacaktır.</string>
+    <string name="split_all_btn">Tüm Sayfaları Tek Tek Ayır (%1$d Sayfa)</string>
+    <string name="split_range_label">Sayfa Aralığı</string>
+    <string name="split_range_hint">Örn: 1-3, 5, 8-10</string>
+    <string name="split_range_apply">Uygula</string>
+    <string name="split_range_invalid">Geçersiz sayfa numarası girildi</string>
+    <string name="split_filter_odd">Tekler</string>
+    <string name="split_filter_even">Çiftler</string>
+    <string name="split_selected_count">sayfa seçildi</string>
+    <string name="split_select_all">Tümünü Seç</string>
+    <string name="split_deselect_all">Temizle</string>
+    <string name="split_page_label">Sayfa</string>
+    <string name="split_extract_btn">Sayfaları Ayıkla</string>
+    <string name="split_options_title">Sayfaları Ayıkla</string>
+    <string name="split_options_subtitle">sayfa seçildi. Kaydetme biçimini seçin:</string>
+    <string name="split_option_single_title">Tek Bir PDF Olarak Ayıkla</string>
+    <string name="split_option_single_desc">Seçilen sayfaları birleştirerek tek bir yeni PDF oluşturur</string>
+    <string name="split_option_separate_title">Ayrı PDF Dosyaları Olarak Ayıkla</string>
+    <string name="split_option_separate_desc">Seçilen her sayfayı bağımsız 1 sayfalık ayrı PDF dosyaları olarak kaydeder</string>
+    <string name="split_loading_pages">Sayfa önizlemeleri hazırlanıyor…</string>
+    <string name="split_progress_title">Sayfalar Ayıklanıyor…</string>
+    <string name="split_progress_desc">Ayıklanan sayfa:</string>
+
+    <!-- Compress PDF Feature -->
+    <string name="compress_select_title">Sıkıştırılacak PDF\'i Seçin</string>
+    <string name="compress_select_subtitle">Boyutunu küçültmek istediğiniz bir PDF belgesi seçin</string>
+    <string name="compress_select_btn">PDF Dosyası Seç</string>
+    <string name="compress_change_pdf">PDF\'i Değiştir</string>
+    <string name="compress_original_size">Orijinal Boyut</string>
+    <string name="compress_compressed_size">Sıkıştırılmış Boyut</string>
+    <string name="compress_pages_count">Sayfa</string>
+    <string name="compress_level_title">Sıkıştırma Seviyesi Seçin</string>
+    <string name="compress_level_min_title">Düşük Sıkıştırma</string>
+    <string name="compress_level_min_desc">Maksimum netlik ve keskin yazılar (~220 DPI, %88 kalite)</string>
+    <string name="compress_level_min_badge">~%30 Küçültme</string>
+    <string name="compress_level_med_title">Önerilen Sıkıştırma</string>
+    <string name="compress_level_med_desc">Yüksek netlik ve boyut dengesi (~150 DPI, %75 kalite)</string>
+    <string name="compress_level_med_badge">~%55 Küçültme</string>
+    <string name="compress_level_max_title">Yüksek Sıkıştırma</string>
+    <string name="compress_level_max_desc">Okunabilir yazılarla küçük dosya boyutu (~90 DPI, %50 kalite)</string>
+    <string name="compress_level_max_badge">~%75 Küçültme</string>
+    <string name="compress_action_btn">PDF\'i Sıkıştır</string>
+    <string name="compress_progress_title">PDF Sıkıştırılıyor…</string>
+    <string name="compress_progress_desc">İşlenen sayfa:</string>
+    <string name="compress_result_title">PDF Başarıyla Sıkıştırıldı!</string>
+    <string name="compress_result_saved_badge">Daha Küçük</string>
+    <string name="compress_saved_location">Kaydedildi: Belgeler/SuperFastScan</string>
+    <string name="compress_btn_view">PDF\'i Görüntüle</string>
+    <string name="compress_btn_share">PDF\'i Paylaş</string>
+    <string name="compress_btn_save_as">Farklı Kaydet / Dosyalara Aktar</string>
+    <string name="compress_save_success">PDF başarıyla kaydedildi!</string>
+    <string name="compress_btn_another">Başka PDF Sıkıştır</string>
+
+    <!-- Watermark PDF Feature -->
+    <string name="watermark_select_title">Filigran Eklenecek PDF\'i Seçin</string>
+    <string name="watermark_select_subtitle">Canlı önizleme ile metin veya görsel filigran ekleyin</string>
+    <string name="watermark_select_btn">PDF Dosyası Seç</string>
+    <string name="watermark_change_pdf">PDF\'i Değiştir</string>
+    <string name="watermark_tab_content">İçerik</string>
+    <string name="watermark_tab_style">Stil &amp; Konum</string>
+    <string name="watermark_tab_pages">Sayfalar</string>
+    <string name="watermark_type_text">Metin</string>
+    <string name="watermark_type_image">Görsel / Logo</string>
+    <string name="watermark_input_label">Filigran Metni</string>
+    <string name="watermark_input_hint">Filigran metnini girin…</string>
+    <string name="watermark_preset_label">Hızlı Şablonlar</string>
+    <string name="watermark_preset_confidential">GİZLİDİR</string>
+    <string name="watermark_preset_draft">TASLAK</string>
+    <string name="watermark_preset_sample">ÖRNEK</string>
+    <string name="watermark_preset_copy">KOPYA</string>
+    <string name="watermark_preset_urgent">ACİL</string>
+    <string name="watermark_color_label">Metin Rengi</string>
+    <string name="watermark_bold_label">Kalın</string>
+    <string name="watermark_select_image_btn">Şirket Logosu / Görsel Seç</string>
+    <string name="watermark_change_image_btn">Logoyu Değiştir</string>
+    <string name="watermark_image_logo_hint">Şeffaf arka planlı PNG şirket logosu önerilir</string>
+    <string name="watermark_opacity_label">Opaklık</string>
+    <string name="watermark_opacity_hint">İdeal Aralık: %20 - %40 (Metin okunabilirliğini korur)</string>
+    <string name="watermark_rotation_label">Yönelim &amp; Açı</string>
+    <string name="watermark_scale_label">Boyut &amp; Ölçek</string>
+    <string name="watermark_btn_center">Ortala</string>
+    <string name="watermark_layer_badge">Katman: Metin ve görsellerin arkası (Arka Plan)</string>
+    <string name="watermark_scope_title">Sayfa Kapsamı</string>
+    <string name="watermark_scope_all">Tüm Sayfalar</string>
+    <string name="watermark_scope_exclude_cover">Kapak Hariç (Sayfa 2+)</string>
+    <string name="watermark_scope_exclude_cover_desc">Kapak sayfasında genellikle filigran kullanılmaz</string>
+    <string name="watermark_scope_first_only">Sadece İlk Sayfa</string>
+    <string name="watermark_scope_custom">Özel Sayfa Aralığı</string>
+    <string name="watermark_custom_pages_hint">Örn: 2-5, 8</string>
+    <string name="watermark_apply_all_pages">Tüm sayfalara uygula</string>
+    <string name="watermark_action_btn">Filigranı Uygula</string>
+    <string name="watermark_progress_title">Filigran Ekleniyor…</string>
+    <string name="watermark_progress_desc">İşlenen sayfa:</string>
+    <string name="watermark_result_title">Filigran Başarıyla Eklendi!</string>
+    <string name="watermark_saved_location">Kaydedildi: Belgeler/SuperFastScan</string>
+    <string name="watermark_btn_view">PDF\'i Görüntüle</string>
+    <string name="watermark_btn_share">PDF\'i Paylaş</string>
+    <string name="watermark_btn_save_as">Farklı Kaydet / Dosyalara Aktar</string>
+    <string name="watermark_save_success">PDF başarıyla kaydedildi!</string>
+    <string name="watermark_btn_another">Başka PDF\'e Filigran Ekle</string>
+
+    <!-- Rotate PDF Feature -->
+    <string name="rotate_select_title">Döndürülecek PDF\'i Seçin</string>
+    <string name="rotate_select_subtitle">Sayfaları tek tek veya tüm belgeyi görsel ızgara ile kolayca döndürün</string>
+    <string name="rotate_select_btn">PDF Dosyası Seç</string>
+    <string name="rotate_change_pdf">PDF\'i Değiştir</string>
+    <string name="rotate_all_left">Sola Döndür</string>
+    <string name="rotate_all_right">Sağa Döndür</string>
+    <string name="rotate_reset">Sıfırla</string>
+    <string name="rotate_save_btn">PDF\'i Kaydet</string>
+    <string name="rotate_saving_title">PDF Kaydediliyor…</string>
+    <string name="rotate_saving_desc">Bozulmasız sayfa yönlendirmesi uygulanıyor…</string>
+    <string name="rotate_result_title">PDF Başarıyla Döndürüldü!</string>
+    <string name="rotate_saved_location">Kaydedildi: Belgeler/SuperFastScan</string>
+    <string name="rotate_btn_view">PDF\'i Görüntüle</string>
+    <string name="rotate_btn_share">PDF\'i Paylaş</string>
+    <string name="rotate_btn_save_as">Farklı Kaydet / Dosyalara Aktar</string>
+    <string name="rotate_save_success">PDF başarıyla kaydedildi!</string>
+    <string name="rotate_btn_another">Başka PDF Döndür</string>
+    <string name="rotate_page_badge">Sayfa</string>
+
+    <!-- Organize PDF Feature (PDF Sırala) -->
+    <string name="organize_select_title">Sıralamak İçin PDF Seçin</string>
+    <string name="organize_select_subtitle">Sayfaları basılı tutup sürükleyerek sıralayın, istemediğiniz sayfaları silin veya yenilerini ekleyin</string>
+    <string name="organize_select_btn">PDF Dosyası Seç</string>
+    <string name="organize_change_pdf">PDF Değiştir</string>
+    <string name="organize_page_count">%1$d Sayfa</string>
+    <string name="organize_drag_hint">Sayfaları yeniden sıralamak için basılı tutup sürükleyin</string>
+    <string name="organize_add_page_btn">Sayfa Ekle</string>
+    <string name="organize_add_blank_page">Boş Sayfa Ekle</string>
+    <string name="organize_add_blank_page_desc">Belgeye boş beyaz bir A4 sayfa ekler</string>
+    <string name="organize_append_pdf">Başka PDF Ekle</string>
+    <string name="organize_append_pdf_desc">Başka bir PDF belgesinin sayfalarını listenin sonuna ekler</string>
+    <string name="organize_blank_page_badge">Boş Sayfa</string>
+    <string name="organize_delete_page_title">Sayfayı Sil</string>
+    <string name="organize_delete_page_msg">%1$d. sayfayı belgeden kaldırmak istediğinize emin misiniz?</string>
+    <string name="organize_save_btn">PDF\'i Kaydet</string>
+    <string name="organize_saving_title">PDF Kaydediliyor…</string>
+    <string name="organize_saving_desc">Sayfalar yeni sırasına göre derleniyor…</string>
+    <string name="organize_result_title">PDF Başarıyla Sıralandı!</string>
+    <string name="organize_saved_location">Kayıt Yeri: Documents/SuperFastScan</string>
+    <string name="organize_btn_view">PDF\'i Aç</string>
+    <string name="organize_btn_share">Paylaş</string>
+    <string name="organize_btn_save_as">Farklı Kaydet / Dosyalara Aktar</string>
+    <string name="organize_save_success">PDF başarıyla kaydedildi!</string>
+    <string name="organize_btn_another">Başka Bir PDF Sırala</string>
+    <string name="organize_page_badge">Sayfa</string>
+
+    <!-- Word to PDF Feature -->
+    <string name="word_to_pdf_title">Word\'den PDF\'e</string>
+    <string name="word_to_pdf_select_title">Word Belgesi Seçin</string>
+    <string name="word_to_pdf_select_subtitle">Yüksek kaliteli PDF formatına dönüştürmek için .docx veya .doc dosyası seçin</string>
+    <string name="word_to_pdf_select_btn">Word Belgesi Seç</string>
+    <string name="word_to_pdf_change_file">Belgeyi Değiştir</string>
+    <string name="word_to_pdf_convert_btn">PDF\'e Dönüştür</string>
+    <string name="word_to_pdf_converting">Belge dönüştürülüyor</string>
+    <string name="word_to_pdf_converting_hint">Belge yükleniyor ve Gotenberg motoruyla PDF\'e dönüştürülüyor…</string>
+    <string name="word_to_pdf_result_title">Başarıyla Dönüştürüldü!</string>
+    <string name="word_to_pdf_result_desc">Word belgeniz PDF formatına dönüştürüldü.</string>
+    <string name="word_to_pdf_btn_view">PDF\'i Aç</string>
+    <string name="word_to_pdf_btn_share">Paylaş</string>
+    <string name="word_to_pdf_btn_save_as">Farklı Kaydet / Dışa Aktar</string>
+    <string name="word_to_pdf_btn_another">Başka Belge Dönüştür</string>
+    <string name="word_to_pdf_saved_location">Kayıt Yeri: Documents/SuperFastScan</string>
+    <string name="word_to_pdf_invalid_format">Lütfen geçerli bir Word belgesi seçin (.docx veya .doc)</string>
+    <string name="word_to_pdf_conversion_error">Dönüştürme başarısız oldu: %1$s</string>
+    <string name="word_to_pdf_save_success">PDF başarıyla kaydedildi!</string>
+    <string name="word_to_pdf_file_info">Word Belgesi</string>
+    <string name="word_to_pdf_custom_name_hint">Çıktı PDF adı (isteğe bağlı)</string>
+    <string name="word_to_pdf_cloud_note">Sayfa düzeni, tablolar, fontlar ve görseller korunarak yüksek kalitede dönüştürülür</string>
+    <string name="conversion_requires_internet">Bu dönüştürme işlemi internete ihtiyaç duymaktadır</string>
+
+    <!-- PPT to PDF Feature -->
+    <string name="ppt_to_pdf_title">PowerPoint\'ten PDF\'e</string>
+    <string name="ppt_to_pdf_select_title">PowerPoint Sunumu Seçin</string>
+    <string name="ppt_to_pdf_select_subtitle">Yüksek kaliteli PDF formatına dönüştürmek için .pptx, .ppt veya .odp dosyası seçin</string>
+    <string name="ppt_to_pdf_select_btn">PowerPoint Sunumu Seç</string>
+    <string name="ppt_to_pdf_file_info">PowerPoint Sunumu</string>
+    <string name="ppt_to_pdf_invalid_format">Lütfen geçerli bir PowerPoint sunumu seçin (.pptx, .ppt, .ppsx, .odp)</string>
+
+    <!-- Excel to PDF Feature -->
+    <string name="excel_to_pdf_title">Excel\'den PDF\'e</string>
+    <string name="excel_to_pdf_select_title">Elektronik Tablo Seçin</string>
+    <string name="excel_to_pdf_select_subtitle">Yüksek kaliteli PDF formatına dönüştürmek için .xlsx, .xls veya .csv dosyası seçin</string>
+    <string name="excel_to_pdf_select_btn">Tablo Dosyası Seç</string>
+    <string name="excel_to_pdf_file_info">Excel Tablosu</string>
+    <string name="excel_to_pdf_invalid_format">Lütfen geçerli bir Excel tablosu seçin (.xlsx, .xls, .csv, .ods)</string>
+    <string name="invalid_image_file">Lütfen geçerli görsel dosyaları seçin (.jpg, .png, .webp)</string>
+
+    <!-- JPG to PDF Feature -->
+    <string name="jpg_to_pdf_title">JPG\'den PDF\'e</string>
+    <string name="jpg_to_pdf_select_title">Görselleri Seçin</string>
+    <string name="jpg_to_pdf_select_subtitle">Tek bir PDF belgesi oluşturmak için bir veya birden fazla görsel seçin</string>
+    <string name="jpg_to_pdf_select_btn">Görselleri Seç</string>
+    <string name="jpg_to_pdf_add_more">Daha Fazla Görsel Ekle</string>
+    <string name="jpg_to_pdf_images_count">%1$d görsel seçildi</string>
+    <string name="jpg_to_pdf_convert_btn">PDF Oluştur</string>
+    <string name="jpg_to_pdf_converting">Görsellerden PDF oluşturuluyor…</string>
+    <string name="jpg_to_pdf_result_title">PDF Başarıyla Oluşturuldu!</string>
+    <string name="jpg_to_pdf_result_desc">Görselleriniz yüksek çözünürlüklü bir PDF belgesinde birleştirildi.</string>
+    <string name="jpg_to_pdf_btn_another">Daha Fazla Görsel Dönüştür</string>
+
+    <!-- PDF to JPG Feature -->
+    <string name="pdf_to_jpg_title">PDF\'ten JPG\'e</string>
+    <string name="pdf_to_jpg_select_title">PDF Belgesi Seçin</string>
+    <string name="pdf_to_jpg_select_subtitle">PDF belgenizin tüm sayfalarını yüksek çözünürlüklü JPG olarak çıkarın</string>
+    <string name="pdf_to_jpg_select_btn">PDF Dosyası Seç</string>
+    <string name="pdf_to_jpg_convert_btn">JPG Sayfalarını Çıkar</string>
+    <string name="pdf_to_jpg_extracting">JPG görselleri çıkarılıyor…</string>
+    <string name="pdf_to_jpg_result_title">Görseller Başarıyla Çıkarıldı!</string>
+    <string name="pdf_to_jpg_result_desc">%1$d sayfa galerinizdeki Pictures/SuperFastScan klasörüne kaydedildi.</string>
+    <string name="pdf_to_jpg_saved_location">Kayıt Yeri: Pictures/SuperFastScan</string>
+    <string name="pdf_to_jpg_btn_view">Fotoğrafları Aç</string>
+    <string name="pdf_to_jpg_btn_share">Görselleri Paylaş</string>
+    <string name="pdf_to_jpg_btn_another">Başka Bir PDF Dönüştür</string>
+
+    <!-- PDF to Office Features -->
+    <string name="pdf_to_office_select_pdf">PDF Belgesi Seçin</string>
+    <string name="pdf_to_office_select_sub">Düzenlenebilir ofis formatına dönüştürmek için bir PDF seçin</string>
+    <string name="pdf_to_word_select_sub">Word\'e dönüştürmek için bir PDF seçin</string>
+    <string name="pdf_to_excel_select_sub">Excel\'e dönüştürmek için bir PDF seçin</string>
+    <string name="pdf_to_ppt_select_sub">PowerPoint\'e dönüştürmek için bir PDF seçin</string>
+    <string name="pdf_to_office_converting">Belge dönüştürülüyor</string>
+    <string name="pdf_to_office_result_title">Başarıyla Dönüştürüldü!</string>
+    <string name="pdf_to_office_result_desc">Belgeniz çıkarıldı ve cihazınıza kaydedildi.</string>
+    <string name="pdf_to_office_btn_open">Dosyayı Aç</string>
+    <string name="pdf_to_office_btn_share">Dosyayı Paylaş</string>
+    <string name="pdf_to_office_btn_another">Başka Dosya Dönüştür</string>
+
+    <!-- OCR Text Recognition & Searchable PDF Feature -->
+    <string name="tool_ocr">OCR &amp; Aranabilir PDF</string>
+    <string name="tool_ocr_desc">Taranmış PDF\'leri arama yapılabilir hale getirin veya metinleri çıkarın</string>
+    <string name="ocr_title">OCR &amp; Aranabilir PDF</string>
+    <string name="ocr_select_image">Görsel Seç</string>
+    <string name="ocr_take_photo">Fotoğraf Çek</string>
+    <string name="ocr_select_pdf">Taranmış PDF Seç</string>
+    <string name="ocr_make_searchable">Arama Yapılabilir PDF Yap</string>
+    <string name="ocr_extracting">Metin cihaz üzerinde taranıyor…</string>
+    <string name="ocr_processing_page">Sayfa %1$d / %2$d taranıyor…</string>
+    <string name="ocr_searchable_success">Aranabilir PDF Oluşturuldu!</string>
+    <string name="ocr_searchable_desc">Metinler orijinal görünümlerin üzerine görünmez katman olarak eklendi. Artık belgede arama yapabilir (Ctrl+F) ve metinleri kopyalayabilirsiniz.</string>
+    <string name="ocr_open_pdf">Aranabilir PDF\'i Aç</string>
+    <string name="ocr_share_pdf">PDF\'i Paylaş</string>
+    <string name="ocr_tab_pdf">Taranmış PDF</string>
+    <string name="ocr_tab_image">Görsel / Kamera</string>
+    <string name="ocr_copied">Metin panoya kopyalandı</string>
+    <string name="ocr_copy">Metni Kopyala</string>
+    <string name="ocr_share">Metni Paylaş</string>
+    <string name="ocr_save_txt">.txt Olarak Kaydet</string>
+    <string name="ocr_save_success">Metin Documents/SuperFastScan klasörüne kaydedildi</string>
+    <string name="ocr_no_text_found">Bu belgede okunabilir metin bulunamadı</string>
+    <string name="ocr_empty_title">Belgeyi OCR (Optik Karakter Tanıma) Formatına Dönüştür</string>
+    <string name="ocr_empty_subtitle">PDF\'leri kaliteli aranabilir belgelere dönüştürün.</string>
+    <string name="ocr_word_count">%1$d kelime • %2$d karakter</string>
+    <string name="ocr_parsed_in">Cihaz üzerinde %1$d ms içinde çıkarıldı</string>
+    <string name="ocr_btn_another">Başka Dosya Dönüştür</string>
+
+    <!-- Premium & Subscription Feature -->
+    <string name="premium_title">Super Fast PDF Scanner Premium</string>
+    <string name="premium_subtitle">%100 Reklamsız ve Kesintisiz Deneyim</string>
+    <string name="premium_benefit_adfree_title">%100 Reklamsız Deneyim</string>
+    <string name="premium_benefit_adfree_desc">Uygulama içerisinde reklam olmadan kolayca gezinin</string>
+    <string name="premium_benefit_speed_title">Kesintisiz Akış</string>
+    <string name="premium_benefit_speed_desc">Belgeleri kesintisiz tarayın ve dönüştürün</string>
+    <string name="premium_benefit_tools_title">Sınırsız Tarama Özelliği</string>
+    <string name="premium_benefit_tools_desc">Standart sürümde yer alan sınırsız tarama özelliği devam eder</string>
+    <string name="premium_subscribe_btn">Aylık %s ile Başla</string>
+    <string name="premium_subscribe_fallback_btn">Aylık ₺34,99 ile Başla</string>
+    <string name="premium_restore_btn">Satın Almaları Geri Yükle</string>
+    <string name="premium_restore_success">Aboneliğiniz başarıyla geri yüklendi!</string>
+    <string name="premium_restore_not_found">Bu hesap için aktif bir abonelik bulunamadı.</string>
+    <string name="premium_auto_renew_disclosure">Aboneliğiniz Google Play hesabınız üzerinden her ay otomatik olarak yenilenir. İstediğiniz zaman Google Play Abonelikler bölümünden iptal edebilirsiniz.</string>
+    <string name="premium_terms_of_use">Kullanım Koşulları</string>
+    <string name="premium_privacy_policy">Gizlilik Politikası</string>
+    <string name="premium_badge_title">PREMIUM</string>
+    <string name="home_badge_free">Reklamsız</string>
+    <string name="home_badge_premium">Premium</string>
+    <string name="home_unlimited_scan_notice">Sınırsız tarama özelliği vardır</string>
+    <string name="home_unlimited_scan_dialog_title">Sınırsız Tarama</string>
+    <string name="home_unlimited_scan_dialog_desc">Bu uygulama, sınırsız ve kesintisiz bir tarama ve dönüştürme deneyimi sunar. Verileriniz hiçbir şekilde sunucularımıza kaydedilmez; böylece uygulamanın tüm özelliklerinden üst düzey gizlilik ve güvenle faydalanabilirsiniz.</string>
+    <string name="btn_ok">Anladım</string>
+    <string name="premium_settings_card_title">Premium\'a Yükselt</string>
+    <string name="premium_settings_card_desc">Tüm reklamları kaldırın, kesintisiz hızın keyfini çıkarın.</string>
+    <string name="premium_status_active">Premium Aktif</string>
+    <string name="premium_status_free">Ücretsiz Sürüm</string>
+
+    <!-- Hızlı Tarama Widget'ı -->
+    <string name="widget_scan_now">Tek Dokunuşla Tara</string>
+    <string name="widget_description">Ana ekranınız için hızlı belge tarama widget kısayolu</string>
+    <string name="widget_add_to_home">Ana Ekrana Ekle</string>
+    <string name="widget_section_title">Ana Ekran Tarama Widget\'ı</string>
+    <string name="widget_section_desc">Tek dokunuşla taramaya başlamak için telefonunuzun ana ekranına hızlı tarama widget\'ı yerleştirin.</string>
+    <string name="widget_pin_requested">Widget ekleme isteği ana ekrana gönderildi.</string>
+    <string name="widget_pin_not_supported">Widget\'ı eklemek için ana ekranınızda boş bir alana basılı tutup \'Widget\'lar\' menüsünü açın.</string>
+    <string name="widget_banner_title">Hızlı Tarama Widget\'ı</string>
+    <string name="widget_banner_desc">Telefonunuzun ana ekranına tek tıkla tarama widget\'ı ekleyin!</string>
+
+    <!-- Tema Seçimi -->
+    <string name="settings_theme">Tema</string>
+    <string name="theme_system">Sistem Varsayılanı</string>
+    <string name="theme_system_desc">Cihazınızın sistem ayarını takip eder</string>
+    <string name="theme_light">Açık Tema</string>
+    <string name="theme_light_desc">Aydınlık ve ferah görünüm</string>
+    <string name="theme_dark">Koyu Tema</string>
+    <string name="theme_dark_desc">Gözleri yormayan koyu görünüm</string>
+
+    <!-- Google Play Değerlendirme Anketi -->
+    <string name="review_dialog_title">Fast Scan PDF\'ten memnun musunuz?</string>
+    <string name="review_dialog_desc">10. belgenizi başarıyla taradınız! Deneyiminizi Google Play\'de değerlendirmek için bir dakikanızı ayırır mısınız? Geri bildiriminiz uygulamayı geliştirmemize yardımcı olur.</string>
+    <string name="review_dialog_rate_button">Google Play\'de Değerlendir</string>
+    <string name="review_dialog_later_button">Daha Sonra</string>
+
+    <!-- Ağ ve Sunucu Hata Mesajları -->
+    <string name="error_no_internet">İnternet bağlantısı gerekli</string>
+    <string name="error_server_connection">Bağlantı hatası, tekrar deneyiniz</string>
+
+    <!-- Bize Ulaşın (Contact Us) -->
+    <string name="settings_contact_us">Bize Ulaşın</string>
+    <string name="settings_contact_us_desc">Geri bildirim, öneri ve destek için e-posta gönderin</string>
+    <string name="contact_us_title">Bize Ulaşın</string>
+    <string name="contact_us_desc">Fast Scan PDF deneyiminizi geliştirmek için görüşleriniz, sorularınız veya önerileriniz bizim için çok önemlidir. Bize dilediğiniz zaman e-posta yoluyla ulaşabilirsiniz.</string>
+    <string name="contact_email_label">Destek E-posta Adresi</string>
+    <string name="contact_email_address">seydialiiclek@gmail.com</string>
+    <string name="contact_send_email_button">E-posta Gönder</string>
+    <string name="contact_copy_email_button">E-postayı Kopyala</string>
+    <string name="contact_email_copied">E-posta adresi panoya kopyalandı!</string>
+    <string name="contact_topic_label">İletişim Konusu Seçin:</string>
+    <string name="contact_topic_feedback">💡 Öneri &amp; Fikir</string>
+    <string name="contact_topic_bug">🐛 Hata Bildirimi</string>
+    <string name="contact_topic_support">❓ Soru &amp; Destek</string>
+    <string name="contact_topic_general">⭐ Genel Değerlendirme</string>
+    <string name="contact_email_subject_template">[Fast Scan PDF] %1$s</string>
+    <string name="contact_email_body_template">Merhaba Fast Scan PDF Ekibi,\n\nKonu: %1$s\n\n[Lütfen mesajınızı, önerinizi veya karşılaştığınız sorunu buraya yazın]\n\n\n----------------------------------------\nCihaz Bilgileri:\n- Cihaz Modeli: %2$s\n- Android Sürümü: %3$s (SDK %4$d)\n- Uygulama Sürümü: %5$s\n----------------------------------------</string>
+    <string name="contact_email_subject_default">[Fast Scan PDF] Destek &amp; Geri Bildirim</string>
+    <string name="contact_email_body_simple">Merhaba Fast Scan PDF Ekibi,\n\n[Lütfen mesajınızı, önerinizi veya karşılaştığınız sorunu buraya yazın]\n\n\n----------------------------------------\nCihaz Bilgileri:\n- Cihaz Modeli: %1$s\n- Android Sürümü: %2$s (SDK %3$d)\n- Uygulama Sürümü: %4$s\n----------------------------------------</string>
+    <string name="contact_no_email_client">E-posta uygulaması bulunamadı. E-posta adresi panoya kopyalandı.</string>
+</resources>
